@@ -1327,6 +1327,14 @@ u, .text-underline {
   color: var(--color-contrast-higher, #1c1c21)
 }
 
+.btn--subtle:hover {
+  background-color: hsl(220, 90%, 56%);
+  background-color: var(--color-primary, #2a6df4);
+  color: hsl(0, 0%, 100%);
+  color: var(--color-white, #fff);
+  transition: .5s;
+}
+
 .btn--accent {
   background-color: hsl(355, 90%, 61%);
   background-color: var(--color-accent, #f54251);

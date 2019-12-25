@@ -1,5 +1,5 @@
 (function(){
-  // Vertical Timeline - by CodyHouse.co
+  // Vertical Timeline
 	function VerticalTimeline( element ) {
 		this.element = element;
 		this.blocks = this.element.getElementsByClassName("cd-timeline__block");
@@ -68,11 +68,9 @@
 		});
 		scrolling = false;
 	};
-})();
 
-$(function() {
-  $('a[href*=#]').on('click', function(e) {
-    e.preventDefault();
-    $('html, body').animate({ scrollTop: $($(this).attr('href')).offset().top}, 1600, 'linear');
-  });
-});
+	$('a[href*=#]').on('click', function(e) {
+  	e.preventDefault();
+  	$('html, body').animate({ scrollTop: $($(this).attr('href')).offset().top}, 1600, 'linear');
+	});
+})();
