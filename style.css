@@ -3683,6 +3683,10 @@ mark {
   background-color: var(--cd-color-6)
 }
 
+.cd-timeline__img--text {
+  background-color:  hsl(355, 90%, 81%);
+}
+
 .cd-timeline__content {
   -ms-flex-positive: 1;
   flex-grow: 1;
@@ -3712,8 +3716,8 @@ mark {
 }
 
 .cd-timeline__content h2 {
-  color: hsl(206, 21%, 24%);
-  color: var(--cd-color-1)
+  color: hsl(220, 90%, 56%);
+  color: var(--color-primary);
 }
 
 @media (min-width: 64rem) {
@@ -3760,6 +3764,14 @@ mark {
     right: 120%;
     text-align: right
   }
+}
+
+.extra {
+  background: #243447;
+}
+
+.extra::before {
+  border-right-color: #243447;
 }
 
 @media (min-width: 64rem) {
